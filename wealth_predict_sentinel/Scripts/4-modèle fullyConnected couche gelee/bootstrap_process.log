@@ -1,0 +1,83 @@
+2025-02-17 18:41:34,154 - INFO - Démarrage du processus bootstrap avec 10 cœurs...
+2025-02-17 18:41:34,154 - INFO - Chargement des données...
+2025-02-17 18:41:38,599 - INFO - Données chargées avec succès: 12980 lignes
+2025-02-17 18:41:38,599 - INFO - Traitement du lot 1/20
+2025-02-17 18:41:38,599 - INFO - Mémoire disponible: 17.05 GB
+2025-02-17 19:52:05,746 - INFO - Lot 1 terminé, 50 résultats accumulés
+2025-02-17 19:52:05,795 - INFO - Traitement du lot 2/20
+2025-02-17 19:52:05,825 - INFO - Mémoire disponible: 27.05 GB
+2025-02-17 20:08:03,868 - ERROR - Erreur durant l'exécution: [WinError 1450] Ressources système insuffisantes pour terminer le service demandé
+2025-02-18 07:34:44,205 - INFO - Démarrage du processus bootstrap avec 6 cœurs...
+2025-02-18 07:34:44,210 - INFO - Chargement des données...
+2025-02-18 07:34:48,690 - INFO - Données chargées avec succès: 12980 lignes
+2025-02-18 07:34:48,690 - INFO - Traitement du lot 1/20
+2025-02-18 07:34:48,690 - INFO - Mémoire disponible: 23.77 GB
+2025-02-18 09:06:24,346 - INFO - Lot 1 terminé, 50 résultats accumulés
+2025-02-18 09:06:24,346 - INFO - Traitement du lot 2/20
+2025-02-18 09:06:24,346 - INFO - Mémoire disponible: 22.74 GB
+2025-02-18 10:36:59,847 - INFO - Lot 2 terminé, 100 résultats accumulés
+2025-02-18 10:36:59,862 - INFO - Traitement du lot 3/20
+2025-02-18 10:36:59,866 - INFO - Mémoire disponible: 22.55 GB
+2025-02-18 12:07:59,080 - INFO - Lot 3 terminé, 150 résultats accumulés
+2025-02-18 12:07:59,080 - INFO - Traitement du lot 4/20
+2025-02-18 12:07:59,080 - INFO - Mémoire disponible: 22.56 GB
+2025-02-18 13:35:33,282 - INFO - Lot 4 terminé, 200 résultats accumulés
+2025-02-18 13:35:33,282 - INFO - Traitement du lot 5/20
+2025-02-18 13:35:33,282 - INFO - Mémoire disponible: 23.22 GB
+2025-02-18 15:08:47,356 - INFO - Lot 5 terminé, 250 résultats accumulés
+2025-02-18 15:08:47,358 - INFO - Traitement du lot 6/20
+2025-02-18 15:08:47,358 - INFO - Mémoire disponible: 22.68 GB
+2025-02-18 17:03:58,442 - INFO - Lot 6 terminé, 300 résultats accumulés
+2025-02-18 17:03:58,442 - INFO - Traitement du lot 7/20
+2025-02-18 17:03:58,442 - INFO - Mémoire disponible: 23.49 GB
+2025-02-18 18:33:30,598 - INFO - Lot 7 terminé, 350 résultats accumulés
+2025-02-18 18:33:30,598 - INFO - Traitement du lot 8/20
+2025-02-18 18:33:30,613 - INFO - Mémoire disponible: 23.61 GB
+2025-02-18 20:02:46,997 - INFO - Lot 8 terminé, 400 résultats accumulés
+2025-02-18 20:02:46,997 - INFO - Traitement du lot 9/20
+2025-02-18 20:02:46,997 - INFO - Mémoire disponible: 23.50 GB
+2025-02-18 21:31:55,027 - INFO - Lot 9 terminé, 450 résultats accumulés
+2025-02-18 21:31:55,027 - INFO - Traitement du lot 10/20
+2025-02-18 21:31:55,031 - INFO - Mémoire disponible: 23.46 GB
+2025-02-18 23:01:10,245 - INFO - Lot 10 terminé, 500 résultats accumulés
+2025-02-18 23:01:10,245 - INFO - Traitement du lot 11/20
+2025-02-18 23:01:10,250 - INFO - Mémoire disponible: 23.24 GB
+2025-02-19 00:28:47,786 - INFO - Lot 11 terminé, 550 résultats accumulés
+2025-02-19 00:28:47,787 - INFO - Traitement du lot 12/20
+2025-02-19 00:28:47,791 - INFO - Mémoire disponible: 23.33 GB
+2025-02-19 01:58:22,933 - INFO - Lot 12 terminé, 600 résultats accumulés
+2025-02-19 01:58:22,933 - INFO - Traitement du lot 13/20
+2025-02-19 01:58:22,933 - INFO - Mémoire disponible: 23.42 GB
+2025-02-19 03:27:36,933 - INFO - Lot 13 terminé, 650 résultats accumulés
+2025-02-19 03:27:36,933 - INFO - Traitement du lot 14/20
+2025-02-19 03:27:36,933 - INFO - Mémoire disponible: 23.39 GB
+2025-02-19 04:56:13,289 - INFO - Lot 14 terminé, 700 résultats accumulés
+2025-02-19 04:56:13,289 - INFO - Traitement du lot 15/20
+2025-02-19 04:56:13,289 - INFO - Mémoire disponible: 23.32 GB
+2025-02-19 06:24:16,302 - INFO - Lot 15 terminé, 750 résultats accumulés
+2025-02-19 06:24:16,303 - INFO - Traitement du lot 16/20
+2025-02-19 06:24:16,307 - INFO - Mémoire disponible: 23.30 GB
+2025-02-19 07:51:32,866 - INFO - Lot 16 terminé, 800 résultats accumulés
+2025-02-19 07:51:32,866 - INFO - Traitement du lot 17/20
+2025-02-19 07:51:32,882 - INFO - Mémoire disponible: 23.11 GB
+2025-02-19 09:37:56,154 - INFO - Lot 17 terminé, 850 résultats accumulés
+2025-02-19 09:37:56,155 - INFO - Traitement du lot 18/20
+2025-02-19 09:37:56,159 - INFO - Mémoire disponible: 23.43 GB
+2025-02-19 11:10:21,834 - INFO - Lot 18 terminé, 900 résultats accumulés
+2025-02-19 11:10:21,834 - INFO - Traitement du lot 19/20
+2025-02-19 11:10:21,834 - INFO - Mémoire disponible: 23.35 GB
+2025-02-19 12:41:41,096 - INFO - Lot 19 terminé, 950 résultats accumulés
+2025-02-19 12:41:41,098 - INFO - Traitement du lot 20/20
+2025-02-19 12:41:41,102 - INFO - Mémoire disponible: 22.39 GB
+2025-02-19 14:14:58,968 - INFO - Lot 20 terminé, 1000 résultats accumulés
+2025-02-19 14:14:58,989 - INFO - 
+Statistiques pour real_rate:
+2025-02-19 14:14:58,989 - INFO - Moyenne: 39.4616%
+2025-02-19 14:14:58,989 - INFO - IC 95%: [38.1328%, 40.7077%]
+2025-02-19 14:14:58,989 - INFO - Erreur standard: 0.6558%
+2025-02-19 14:14:58,989 - INFO - 
+Statistiques pour pred_rate:
+2025-02-19 14:14:58,989 - INFO - Moyenne: 39.6181%
+2025-02-19 14:14:58,989 - INFO - IC 95%: [38.0720%, 41.0605%]
+2025-02-19 14:14:58,989 - INFO - Erreur standard: 0.7310%
+2025-02-19 14:14:58,989 - INFO - Processus terminé avec succès!
