@@ -1,0 +1,100 @@
+{
+  "hyperparameters_used": {
+    "batch_size": 24,
+    "learning_rate": 2.4286574429703306e-06,
+    "weight_decay": 2.6092413148735035e-05,
+    "optimizer": "Adam",
+    "scheduler_step": 14,
+    "scheduler_gamma": 0.5900313400740407
+  },
+  "training_results": {
+    "final_accuracy": 0.7586206896551724,
+    "final_train_loss": 0.14937712713144718,
+    "final_val_loss": 0.6443527240306139,
+    "epochs_trained": 19,
+    "total_training_time_seconds": 1022.6565535068512,
+    "average_epoch_time_seconds": 53.82314580365231
+  },
+  "detailed_metrics": {
+    "accuracy": 0.7586206896551724,
+    "precision_macro": 0.756218168776789,
+    "precision_micro": 0.7586206896551724,
+    "precision_weighted": 0.7562181687767889,
+    "precision_per_class": [
+      0.8025889967637541,
+      0.6449511400651465,
+      0.8211143695014663
+    ],
+    "recall_macro": 0.7586206896551725,
+    "recall_micro": 0.7586206896551724,
+    "recall_weighted": 0.7586206896551724,
+    "recall_per_class": [
+      0.7774294670846394,
+      0.6206896551724138,
+      0.877742946708464
+    ],
+    "f1_macro": 0.7569605417024069,
+    "f1_micro": 0.7586206896551724,
+    "f1_weighted": 0.7569605417024069,
+    "f1_per_class": [
+      0.7898089171974523,
+      0.6325878594249201,
+      0.8484848484848485
+    ],
+    "specificity_macro": 0.8793103448275863,
+    "specificity_per_class": [
+      0.9043887147335423,
+      0.829153605015674,
+      0.9043887147335423
+    ],
+    "kappa": 0.6379310344827587,
+    "support_per_class": [
+      319,
+      319,
+      319
+    ],
+    "confusion_matrix": [
+      [
+        248,
+        70,
+        1
+      ],
+      [
+        61,
+        198,
+        60
+      ],
+      [
+        0,
+        39,
+        280
+      ]
+    ],
+    "val_loss": 0.6443527240306139
+  },
+  "dataset_info": {
+    "dataset_type": "3_class",
+    "num_classes": 3,
+    "train_samples": 3828,
+    "val_samples": 957
+  },
+  "model_info": {
+    "architecture": "VGG16 Standard",
+    "device": "cuda:0",
+    "layers_frozen": false,
+    "architecture_type": "fully_connected",
+    "total_parameters": 134272835,
+    "trainable_parameters": 134272835,
+    "modification": "Only final layer adapted for num_classes"
+  },
+  "reproducibility": {
+    "random_seed": 42,
+    "pytorch_version": "2.7.1+cu118",
+    "cuda_available": true,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false
+  },
+  "creation_timestamp": "20250618_072053",
+  "creation_datetime": "2025-06-18T07:20:53.871192",
+  "total_script_time_seconds": 1044.3181247711182
+}

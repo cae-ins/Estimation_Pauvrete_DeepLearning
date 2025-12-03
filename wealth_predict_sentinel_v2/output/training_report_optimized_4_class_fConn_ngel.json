@@ -1,0 +1,114 @@
+{
+  "hyperparameters_used": {
+    "batch_size": 24,
+    "learning_rate": 5.49e-06,
+    "weight_decay": 0.0070456836384545085,
+    "optimizer": "Adam",
+    "scheduler_step": 13,
+    "scheduler_gamma": 0.7414056762673377
+  },
+  "training_results": {
+    "final_accuracy": 0.7298657718120806,
+    "final_train_loss": 0.056376650417223576,
+    "final_val_loss": 0.9653596985340118,
+    "epochs_trained": 17,
+    "total_training_time_seconds": 558.0407137870789,
+    "average_epoch_time_seconds": 32.82521807446199
+  },
+  "detailed_metrics": {
+    "accuracy": 0.7298657718120806,
+    "precision_macro": 0.7282560922751478,
+    "precision_micro": 0.7298657718120806,
+    "precision_weighted": 0.7282560922751478,
+    "precision_per_class": [
+      0.8053691275167785,
+      0.6597222222222222,
+      0.6530612244897959,
+      0.7948717948717948
+    ],
+    "recall_macro": 0.7298657718120806,
+    "recall_micro": 0.7298657718120806,
+    "recall_weighted": 0.7298657718120806,
+    "recall_per_class": [
+      0.8053691275167785,
+      0.6375838926174496,
+      0.6442953020134228,
+      0.8322147651006712
+    ],
+    "f1_macro": 0.7288991735215784,
+    "f1_micro": 0.7298657718120806,
+    "f1_weighted": 0.7288991735215783,
+    "f1_per_class": [
+      0.8053691275167785,
+      0.6484641638225256,
+      0.6486486486486487,
+      0.8131147540983606
+    ],
+    "specificity_macro": 0.9099552572706935,
+    "specificity_per_class": [
+      0.9351230425055929,
+      0.8903803131991052,
+      0.8859060402684564,
+      0.9284116331096197
+    ],
+    "kappa": 0.639821029082774,
+    "support_per_class": [
+      149,
+      149,
+      149,
+      149
+    ],
+    "confusion_matrix": [
+      [
+        120,
+        28,
+        1,
+        0
+      ],
+      [
+        28,
+        95,
+        25,
+        1
+      ],
+      [
+        1,
+        21,
+        96,
+        31
+      ],
+      [
+        0,
+        0,
+        25,
+        124
+      ]
+    ],
+    "val_loss": 0.9653596985340118
+  },
+  "dataset_info": {
+    "dataset_type": "4_class",
+    "num_classes": 4,
+    "train_samples": 2380,
+    "val_samples": 596
+  },
+  "model_info": {
+    "architecture": "VGG16 Standard",
+    "device": "cuda:0",
+    "layers_frozen": false,
+    "architecture_type": "fully_connected",
+    "total_parameters": 134276932,
+    "trainable_parameters": 134276932,
+    "modification": "Only final layer adapted for num_classes"
+  },
+  "reproducibility": {
+    "random_seed": 42,
+    "pytorch_version": "2.7.1+cu118",
+    "cuda_available": true,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false
+  },
+  "creation_timestamp": "20250618_070329",
+  "creation_datetime": "2025-06-18T07:03:29.462646",
+  "total_script_time_seconds": 577.5382146835327
+}

@@ -1,0 +1,47 @@
+Récapitulatif des fichiers générés - EHCVM_2018
+=========================================================
+
+🏷️ IDENTIFIANT : EHCVM_2018
+📅 ANNÉE EHCVM : 2018
+🎯 TAILLE DES TUILES : 2.24 km × 2.24 km (EXACTE)
+⭐ NOUVELLES FONCTIONNALITÉS : Coordonnées des centres des tuiles incluses
+
+📁 DOSSIERS DE SORTIE :
+  • Données générales : D:\wealth_predict_sentinel_v2\data\output
+  • CSV traités : D:\wealth_predict_sentinel_v2\data\output\processed_csv
+  • Graphiques : D:\wealth_predict_sentinel_v2\figures_graphs
+  • Cartes HTML : D:\wealth_predict_sentinel_v2\data\output\html_output
+
+📁 FICHIERS DE DONNÉES:
+  • points_avec_tuiles_EHCVM_2018.csv: Points GPS avec assignation de tuiles ET coordonnées des centres
+  • grilles_avec_tuiles_EHCVM_2018.geojson: Géométries des tuiles (GeoJSON)
+  • grilles_avec_tuiles_EHCVM_2018.shp: Géométries des tuiles (Shapefile)
+
+📊 GRAPHIQUES ET VISUALISATIONS:
+  • distribution_points_par_tuile_EHCVM_2018.png: Histogrammes de distribution
+  • top_20_tuiles_EHCVM_2018.png: Top 20 des tuiles par nombre de points
+
+🗺️ CARTES INTERACTIVES:
+  • carte_interactive_tuiles_EHCVM_2018.html: Carte interactive des tuiles
+
+📋 DOCUMENTATION:
+  • instructions_sentinel2_EHCVM_2018.txt: Guide pour utilisation avec Sentinel-2
+  • recap_fichiers_EHCVM_2018.txt: Ce fichier récapitulatif
+
+📈 STATISTIQUES FINALES:
+  • Nombre total de points GPS: 12980
+  • Nombre total de tuiles: 1830
+  • Nombre de tuiles avec points: 1830
+  • Points par tuile - Min: 1, Max: 82, Moyenne: 7.09
+
+🌍 DIMENSIONS EXACTES (UTM):
+  • Taille cible: 2.24 km × 2.24 km
+  • Dimensions moyennes réelles: 2.251 × 2.251 km
+  • Surface moyenne par tuile: 5.065 km²
+  • Surface théorique: 5.018 km²
+  • Méthode: Projection UTM pour dimensions exactes
+
+⭐ NOUVELLES COLONNES CSV:
+  • tuile_center_lon: Longitude du centre de chaque tuile
+  • tuile_center_lat: Latitude du centre de chaque tuile
+  • Cohérence: Correspond exactement aux informations Sentinel-2

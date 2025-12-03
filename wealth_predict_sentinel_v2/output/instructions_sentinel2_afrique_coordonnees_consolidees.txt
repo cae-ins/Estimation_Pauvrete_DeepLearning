@@ -1,0 +1,42 @@
+Instructions pour utiliser les tuiles afrique_coordonnees_consolidees avec Sentinel-2
+===============================================================================================
+
+🏷️ DONNÉES : df_afrique_coordonnees_consolidees.csv
+🎯 TAILLE EXACTE : 2.24 km × 2.24 km
+🌍 PRÉCISION GÉODÉSIQUE UTM :
+Les tuiles ont été générées avec la projection UTM pour garantir des dimensions exactes.
+Dimensions moyennes réelles : 2.199 km × 2.199 km
+Surface moyenne réelle : 4.839 km²
+Surface théorique cible : 5.018 km²
+Les distances entre points orphelins et tuiles utilisent également des calculs géodésiques.
+
+Pour chaque tuile, vous trouverez les coordonnées de son centre et ses limites dans les fichiers exportés.
+
+🎯 NOUVELLES COLONNES DANS LE CSV :
+- tuile_center_lon: Longitude du centre de la tuile
+- tuile_center_lat: Latitude du centre de la tuile
+Ces colonnes correspondent exactement aux valeurs center_lon et center_lat des informations Sentinel-2.
+
+Format des fichiers exportés:
+- points_avec_tuiles_afrique_coordonnees_consolidees.csv: Points GPS avec leur tuile et coordonnées du centre
+- grilles_avec_tuiles_afrique_coordonnees_consolidees.geojson: Géométries des tuiles au format GeoJSON
+- grilles_avec_tuiles_afrique_coordonnees_consolidees.shp, .dbf, .shx, .prj: Géométries des tuiles au format Shapefile
+
+🎯 POINTS ORPHELINS :
+• 1 points se trouvaient en dehors de toutes les tuiles.
+• Ces points ont été assignés à la tuile la plus proche avec des calculs géodésiques précis.
+• Distance moyenne d'assignation : 1.531 km
+• Distance maximale d'assignation : 1.531 km
+
+🛰️ TÉLÉCHARGEMENT SENTINEL-2 :
+1. Utilisez les coordonnées min_lon, min_lat, max_lon, max_lat comme bbox pour le téléchargement
+2. Ou utilisez directement tuile_center_lon et tuile_center_lat pour centrer le téléchargement
+3. Assurez-vous que la projection est en WGS84 (EPSG:4326)
+4. Pour convertir en UTM (utilisé par Sentinel-2), vous pouvez utiliser la bibliothèque pyproj
+
+🎯 AVANTAGE DES DIMENSIONS EXACTES :
+• Toutes les tuiles font exactement 2.24 km × 2.24 km
+• Surface uniforme facilitant les analyses comparatives
+• Compatible avec les résolutions standard de Sentinel-2 (10m, 20m, 60m)
+• Minimise les distorsions géographiques grâce à la projection UTM
+• Coordonnées du centre directement disponibles dans le CSV pour chaque point GPS

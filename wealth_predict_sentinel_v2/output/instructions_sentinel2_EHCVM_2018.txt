@@ -1,0 +1,36 @@
+Instructions pour utiliser les tuiles EHCVM_2018 avec Sentinel-2
+==========================================================================
+
+🏷️ DONNÉES : EHCVM_2018
+🎯 TAILLE EXACTE : 2.24 km × 2.24 km
+🌍 PRÉCISION GÉODÉSIQUE UTM :
+Les tuiles ont été générées avec la projection UTM pour garantir des dimensions exactes.
+Dimensions moyennes réelles : 2.251 km × 2.251 km
+Surface moyenne réelle : 5.065 km²
+Surface théorique cible : 5.018 km²
+Les distances entre points orphelins et tuiles utilisent également des calculs géodésiques.
+
+Pour chaque tuile, vous trouverez les coordonnées de son centre et ses limites dans les fichiers exportés.
+
+🎯 NOUVELLES COLONNES DANS LE CSV :
+- tuile_center_lon: Longitude du centre de la tuile
+- tuile_center_lat: Latitude du centre de la tuile
+Ces colonnes correspondent exactement aux valeurs center_lon et center_lat des informations Sentinel-2.
+
+Format des fichiers exportés:
+- points_avec_tuiles_EHCVM_2018.csv: Points GPS avec leur tuile et coordonnées du centre
+- grilles_avec_tuiles_EHCVM_2018.geojson: Géométries des tuiles au format GeoJSON
+- grilles_avec_tuiles_EHCVM_2018.shp, .dbf, .shx, .prj: Géométries des tuiles au format Shapefile
+
+🛰️ TÉLÉCHARGEMENT SENTINEL-2 :
+1. Utilisez les coordonnées min_lon, min_lat, max_lon, max_lat comme bbox pour le téléchargement
+2. Ou utilisez directement tuile_center_lon et tuile_center_lat pour centrer le téléchargement
+3. Assurez-vous que la projection est en WGS84 (EPSG:4326)
+4. Pour convertir en UTM (utilisé par Sentinel-2), vous pouvez utiliser la bibliothèque pyproj
+
+🎯 AVANTAGE DES DIMENSIONS EXACTES :
+• Toutes les tuiles font exactement 2.24 km × 2.24 km
+• Surface uniforme facilitant les analyses comparatives
+• Compatible avec les résolutions standard de Sentinel-2 (10m, 20m, 60m)
+• Minimise les distorsions géographiques grâce à la projection UTM
+• Coordonnées du centre directement disponibles dans le CSV pour chaque point GPS

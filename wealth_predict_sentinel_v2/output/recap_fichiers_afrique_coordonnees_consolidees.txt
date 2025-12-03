@@ -1,0 +1,49 @@
+Récapitulatif des fichiers générés - afrique_coordonnees_consolidees
+==============================================================================
+
+🏷️ IDENTIFIANT : afrique_coordonnees_consolidees
+📁 FICHIER SOURCE : df_afrique_coordonnees_consolidees.csv
+🎯 TAILLE DES TUILES : 2.24 km × 2.24 km (EXACTE)
+⭐ NOUVELLES FONCTIONNALITÉS : Coordonnées des centres des tuiles incluses
+
+📁 DOSSIERS DE SORTIE :
+  • Données générales : D:\wealth_predict_sentinel_v2\data\output
+  • CSV traités : D:\wealth_predict_sentinel_v2\data\output\processed_csv
+  • Graphiques : D:\wealth_predict_sentinel_v2\figures_graphs
+  • Cartes HTML : D:\wealth_predict_sentinel_v2\data\output\html_output
+
+📁 FICHIERS DE DONNÉES:
+  • points_avec_tuiles_afrique_coordonnees_consolidees.csv: Points GPS avec assignation de tuiles ET coordonnées des centres
+  • grilles_avec_tuiles_afrique_coordonnees_consolidees.geojson: Géométries des tuiles (GeoJSON)
+  • grilles_avec_tuiles_afrique_coordonnees_consolidees.shp: Géométries des tuiles (Shapefile)
+
+📊 GRAPHIQUES ET VISUALISATIONS:
+  • distribution_points_par_tuile_afrique_coordonnees_consolidees.png: Histogrammes de distribution
+  • top_20_tuiles_afrique_coordonnees_consolidees.png: Top 20 des tuiles par nombre de points
+
+🗺️ CARTES INTERACTIVES:
+  • carte_interactive_tuiles_afrique_coordonnees_consolidees.html: Carte interactive des tuiles
+
+📋 DOCUMENTATION:
+  • instructions_sentinel2_afrique_coordonnees_consolidees.txt: Guide pour utilisation avec Sentinel-2
+  • recap_fichiers_afrique_coordonnees_consolidees.txt: Ce fichier récapitulatif
+
+📈 STATISTIQUES FINALES:
+  • Nombre total de points GPS: 23036
+  • Nombre total de tuiles: 5471
+  • Nombre de tuiles avec points: 5471
+  • Points par tuile - Min: 1, Max: 191, Moyenne: 4.21
+
+🌍 DIMENSIONS EXACTES (UTM):
+  • Taille cible: 2.24 km × 2.24 km
+  • Dimensions moyennes réelles: 2.199 × 2.199 km
+  • Surface moyenne par tuile: 4.839 km²
+  • Surface théorique: 5.018 km²
+  • Méthode: Projection UTM pour dimensions exactes
+
+⭐ NOUVELLES COLONNES CSV:
+  • tuile_center_lon: Longitude du centre de chaque tuile
+  • tuile_center_lat: Latitude du centre de chaque tuile
+  • Cohérence: Correspond exactement aux informations Sentinel-2
+  • Points orphelins assignés: 1
+  • Distance moyenne d'assignation: 1.531 km

@@ -1,0 +1,5 @@
+Statistiques de normalisation - 4_class
+Calculées sur 2380 images d'entraînement
+
+Moyenne RGB: [0.5143841505050659, 0.42713725566864014, 0.2051500678062439]
+Écart-type RGB: [0.27266645431518555, 0.190855011343956, 0.16975148022174835]
