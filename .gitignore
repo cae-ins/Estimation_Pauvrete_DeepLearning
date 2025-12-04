@@ -1,0 +1,26 @@
+# Ignorer tous les fichiers CSV
+*.csv
+
+# Ignorer tous les fichiers JSON
+*.json
+
+# Ignorer tous les fichiers de shapefiles (formats ESRI)
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Facultatif : ignorer également les fichiers Excel, logs, checkpoints
+*.xlsx
+*.log
+*.ipynb_checkpoints
+
+# Pour être sûr de bien ignorer même dans les sous-répertoires
+**/*.csv
+**/*.json
+**/*.shp
+**/*.shx
+**/*.dbf
+**/*.prj
+**/*.cpg
