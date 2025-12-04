@@ -1,8 +1,14 @@
 # Ignorer tous les fichiers CSV
 *.csv
+**/*.csv
 
 # Ignorer tous les fichiers JSON
 *.json
+**/*.json
+
+# Ignorer tous les fichiers GeoJSON
+*.geojson
+**/*.geojson
 
 # Ignorer tous les fichiers de shapefiles (formats ESRI)
 *.shp
@@ -11,16 +17,25 @@
 *.prj
 *.cpg
 
-# Facultatif : ignorer également les fichiers Excel, logs, checkpoints
-*.xlsx
-*.log
-*.ipynb_checkpoints
-
-# Pour être sûr de bien ignorer même dans les sous-répertoires
-**/*.csv
-**/*.json
 **/*.shp
 **/*.shx
 **/*.dbf
 **/*.prj
 **/*.cpg
+
+# ignorer également les fichiers Excel, logs, checkpoints
+*.xlsx
+*.log
+*.ipynb_checkpoints
+
+# Ignorer les fichiers de données dans wealth_predict_sentinel_v2/output
+
+wealth_predict_sentinel_v2/output/*.csv
+wealth_predict_sentinel_v2/output/*.json
+wealth_predict_sentinel_v2/output/*.geojson
+wealth_predict_sentinel_v2/output/*.shp
+wealth_predict_sentinel_v2/output/*.shx
+wealth_predict_sentinel_v2/output/*.dbf
+wealth_predict_sentinel_v2/output/*.prj
+wealth_predict_sentinel_v2/output/*.cpg
+wealth_predict_sentinel_v2/output/*.xlsx
