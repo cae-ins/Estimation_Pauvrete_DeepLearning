@@ -39,3 +39,4 @@ wealth_predict_sentinel_v2/output/*.dbf
 wealth_predict_sentinel_v2/output/*.prj
 wealth_predict_sentinel_v2/output/*.cpg
 wealth_predict_sentinel_v2/output/*.xlsx
+wealth_predict_sentinel_v2/*.xlsx
